@@ -1,12 +1,21 @@
+:root {
+  --base: #191724;
+  --overlay: #26233a;
+  --text: #e0def4;
+}
+
 * {
-  font-family: sans-serif;
+  font-family: Montserrat ,sans-serif;
+  margin: 0;
+  background-color: var(--base);
 }
 
 .header {
-  margin: 0;
-  color: white;
-  background-color: purple;
-  height: 20%;
+  color: var(--text);
+  background-color: var(--overlay);
+  font-size: 50px;
+  font-weight: lighter;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
