@@ -7,15 +7,33 @@
 * {
   font-family: Montserrat ,sans-serif;
   margin: 0;
-  background-color: var(--base);
+  background-color: var(--overlay);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
   color: var(--text);
-  background-color: var(--overlay);
+  background-color: var(--base);
   font-size: 50px;
   font-weight: lighter;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  color: var(--text);
+  background-color: var(--base);
+  font-size: 20px;
+  font-weight: lighter;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
