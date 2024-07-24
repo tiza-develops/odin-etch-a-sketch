@@ -40,8 +40,11 @@ body {
 }
 
 .content {
+  margin: 20%;
   color: var(--text);
   display: flex;
+  gap: 10%;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
