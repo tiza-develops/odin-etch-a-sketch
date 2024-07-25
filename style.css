@@ -3,6 +3,7 @@
   --overlay: #26233a;
   --text: #e0def4;
   --love: #eb6f92;
+  --gold: #f6c177;
 }
 
 * {
@@ -48,5 +49,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.hover-box {
+  height: 300px;
+  width: 300px;
+  background-color: var(--gold);
 }
 
