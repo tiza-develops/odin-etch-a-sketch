@@ -2,16 +2,6 @@ let base = "#191724";
 let love = "#eb6f92";
 let pine = "#31748f";
 
-const hover = document.querySelector(".hover-box");
-hover.addEventListener(
-  "mouseenter",
-  (event) => {
-    event.target.style.backgroundColor = love;
-  },
-  false,
-);
-
-/*
 const container = document.querySelector(".content");
 
 function makeGrid() {
@@ -35,6 +25,4 @@ function makeGrid() {
 }
 
 makeGrid();
-*/
-
 
