@@ -14,9 +14,10 @@ function makeGrid() {
       for (j = 0; j < 16; j++) {
         const col = document.createElement("div");
         col.className = "col";
-        col.style.height = "30px";
         col.style.width = "30px";
-        col.style.backgroundColor = love;
+        col.style.height = "30px";
+        col.style.margin = "2px";
+        col.style.borderRadius = "20%";
         row.appendChild(col);
         
       }
@@ -24,3 +25,4 @@ function makeGrid() {
 }
 
 makeGrid();
+

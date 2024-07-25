@@ -2,6 +2,7 @@
   --base: #191724;
   --overlay: #26233a;
   --text: #e0def4;
+  --love: #eb6f92;
 }
 
 * {
@@ -48,3 +49,4 @@ body {
   justify-content: center;
   align-items: center;
 }
+
