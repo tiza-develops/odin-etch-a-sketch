@@ -16,10 +16,10 @@ function makeGrid() {
         col.className = "col";
         col.style.width = "30px";
         col.style.height = "30px";
+        col.style.backgroundColor = "love";
         col.style.margin = "2px";
         col.style.borderRadius = "20%";
         row.appendChild(col);
-        
       }
     }
 }
