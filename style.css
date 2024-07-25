@@ -2,6 +2,7 @@
   --base: #191724;
   --overlay: #26233a;
   --text: #e0def4;
+  --love: #eb6f92;
 }
 
 * {
@@ -38,3 +39,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
+=======
+
+.content {
+  margin: 20%;
+  color: var(--text);
+  display: flex;
+  gap: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+>>>>>>> main
